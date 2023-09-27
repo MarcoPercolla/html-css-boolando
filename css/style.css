@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+header {
+    width: 100vw;
+    height: 70px;
+    display:flex;
+    justify-content: space-between;
+    padding: 0 10vw;
+    align-items: center;
+    background-color: orange;
+    position:fixed;
+    top:0;
+    left: 0;
+    
+    
+}
+
+.logo{
+    
+    height: 40%;
+    
+}
+
+main {
+    
+    margin-top: 100px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-container {
+    width: 30%;
+    padding-bottom: 100px;
+
+}    
+        
+.card {
+
+    width:100%;
+
+
+}
+
+.preview {
+width: 100%;
+    
+}
