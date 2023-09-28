@@ -112,3 +112,11 @@ a {
 .nascosta:hover {
     opacity: 0;
 }
+
+.red {
+    color:red
+}
+
+.bar {
+    text-decoration: line-through;
+}
