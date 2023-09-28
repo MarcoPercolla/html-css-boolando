@@ -14,10 +14,11 @@ header {
     justify-content: space-between;
     padding: 0 10vw;
     align-items: center;
-    background-color: orange;
+    background-color: rgb(255, 98, 0);
     position:fixed;
     top:0;
     left: 0;
+    
     
     
 }
@@ -35,6 +36,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     
+    
 
 
 }
@@ -42,22 +44,71 @@ main {
 .row {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .card-container {
     width: 30%;
     padding-bottom: 100px;
+    
 
 }    
         
 .card {
 
     width:100%;
-
-
+    position: relative;
 }
 
 .preview {
-width: 100%;
+ width: 26vw;
+ 
+
+   
+}
+
+.nascosta {
     
+    position: absolute;
+    top: 0;
+    
+
+}
+
+footer {
+    width: 100vw;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    color:white
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.Discount {
+    
+    background-color: red;
+    position:absolute;
+    bottom:150px;
+
+}
+
+.sostenibility {
+    background-color: green;
+    position:absolute;
+    bottom:150px;
+    left: 33px;
+}
+
+.lvmax {
+    z-index: 100;
+}
+
+.nascosta:hover {
+    opacity: 0;
 }
